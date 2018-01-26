@@ -1,5 +1,5 @@
 module UsersHelper
-    def gravator_for(user ,size)
+    def gravator_for(user)
        gravator_id = Digest::MD5::hexdigest(user.email.downcase)
        size = 100
        gravator_url = url = "http://gravatar.com/avatar/#{gravator_id}?s=#{size}"
