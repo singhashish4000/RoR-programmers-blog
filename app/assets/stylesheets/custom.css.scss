@@ -22,10 +22,11 @@ $navbar-default-bg: white;
 }
 
 .jumbotron {
-  background-image: asset-url('logo3.png');
+  background-image: asset-url('logo4.jpg');
   background-size: cover;
   height: 540px;     
   margin-left: 0;
+  padding-right: 0;
 }
 
 .jumbotron h1 {
@@ -34,6 +35,9 @@ $navbar-default-bg: white;
     margin-bottom: 30px;
     letter-spacing: -1px;
     font-weight: bold;
+    position: relative;
+    left: 22%;
+    top:10%;
 }
 
 .btn-xlarge {
@@ -102,6 +106,11 @@ footer ul li {
     color: #38849C;
     font-size: 1.6em;
     position: relative;
-    bottom: 15px;
+    bottom: 10%;
     font-weight: bold
+}
+
+.sign-up-btn {
+    margin-top: 13%;
+    margin-left:35%;
 }
